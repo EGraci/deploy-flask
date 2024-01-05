@@ -55,8 +55,7 @@ After=network.target
 User=root
 Group=www-data
 WorkingDirectory=/[path env]
-Environment="PATH=/[path env]/venv/bin"
-ExecStart=/[path env]/venv/bin/gunicorn --workers 3 --bind unix:sispakde.sock -m 007 wsgi:app
+ExecStart=/[path env]/venv/bin/gunicorn gunicorn --bind 0.0.0.0:8000 wsgi:app
 
 [Install]
 WantedBy=multi-user.target
