@@ -13,7 +13,7 @@ python -m venv venv
 ```
 Running env
 ```
-. .venv/bin/activate
+. venv/bin/activate
 ```
 Install application support
 ```
