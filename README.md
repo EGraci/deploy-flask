@@ -9,7 +9,7 @@ sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev p
 Tutorial <a href="https://flask.palletsprojects.com/en/latest/deploying/gunicorn/">Link</a>
 Genrate env
 ```
-python -m venv .venv
+python -m venv venv
 ```
 Running env
 ```
