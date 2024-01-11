@@ -64,5 +64,7 @@ Start sytemctl
 ```
 sudo systemctl start [nameFileSystem] 
 sudo systemctl enable [nameFileSystem] 
-sudo systemctl status [nameFileSystem] 
+sudo systemctl status [nameFileSystem]
+sudo systemctl stop [nameFileSystem]
+sudo systemctl restart [nameFileSystem]
 ```
