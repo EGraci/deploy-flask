@@ -1,5 +1,9 @@
 # deploy-flask with nginx and gunicorn
-
+## Settings MYSQLDB Python
+```
+sudo apt-get install pkg-config libmysqlclient-dev
+pip3 install Flask-MySQLdb
+```
 ## Install Requirement
 ```
 sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools
