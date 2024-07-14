@@ -4,6 +4,7 @@ use pip3 or pip or python3
 > Flask                       
 > Flask-Cors                  
 > Flask-MySQLdb
+
 > mysql-connector-python
 > mysqlclient
 ```
