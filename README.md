@@ -1,5 +1,11 @@
 # deploy-flask with nginx and gunicorn
 ## Settings MYSQLDB Python
+use pip3 or pip or python3
+> Flask                       
+> Flask-Cors                  
+> Flask-MySQLdb
+> mysql-connector-python
+> mysqlclient
 ```
 sudo apt-get install pkg-config libmysqlclient-dev
 pip3 install Flask-MySQLdb
